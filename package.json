@@ -15,7 +15,7 @@
     "order-router-example": "node -e 'import(\"./examples/orderRouterExample.js\")'",
     "limit-order-example": "node -e 'import(\"./examples/limitOrderExample.js\")'",
     "build": "tsdx build",
-    "postinstall": "npm run build"
+    "postinstall": "npx tsdx build"
   },
   "dependencies": {
     "algosdk": "^1.19.0",
