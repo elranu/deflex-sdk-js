@@ -1,6 +1,6 @@
 {
   "name": "@deflex/deflex-sdk-js",
-  "version": "1.0.14",
+  "version": "1.0.15",
   "description": "Deflex JS SDK",
   "main": "dist/index.js",
   "module": "dist/index.js",
@@ -14,7 +14,8 @@
   "scripts": {
     "order-router-example": "node -e 'import(\"./examples/orderRouterExample.js\")'",
     "limit-order-example": "node -e 'import(\"./examples/limitOrderExample.js\")'",
-    "build": "tsdx build"
+    "build": "tsdx build",
+    "postinstall": "npm run build"
   },
   "dependencies": {
     "algosdk": "^1.19.0",
